@@ -27,7 +27,7 @@ def run():
     if debouncerun and repeats >= 0:
             debouncerun = not debouncerun
             search_edge(repeats, custom=0)
-            time.sleep(10)
+            time.sleep(random.randint(90,110) / 100)
             repeats -= 1
             debouncerun = not debouncerun
     elif repeats < 0:
