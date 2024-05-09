@@ -25,3 +25,7 @@ It's GPL-3.0 so like do anything that it allows, else I will have to do legal sh
 What did you expect here? Someone else? Nah, it is just me! By the way go sub to me on youtube -> [YouTube Link (CLICK IT)](https://www.youtube.com/@evolveroff)
 
 PS: The link does open in your current tab so just middle mouse button click it so it opens in a new tab.
+
+## Legal
+
+I am not responsible for anything done illegally or for any crimes (de facto) you commit. Everything is provided as is and you are using this program under your own discretion and at your own risk.
