@@ -12,13 +12,13 @@ It searches between an inteval of about 10 seconds.
 
 Just open the program with python. It can be done via a code editor (like Visual Studio Code), via terminal (by doing "py [PATH]/main.py) or somehow else. Then it states that you should press F1 to start. Press it and it starts the 30 iterations. It should take about 300 seconds (or about 5 minutes) to fully complete. During that time leave it untouched as you might ruin it.
 
-You can technically stop the program by pressing F1 again (then resume with it too) but it's broken most of the time so don't really get amazed in case it doesn't work.
+To stop the program hold F1. This should immediatelly open a new tab. Hold it until another tab is opened. When that happens, you are done. The program has stopped.
 
-Also F1 opens the help menu, so it will search in a new tab this way so it doesn't close your other tabs (I know what you have open, don't lie).
+Also F1 opens the help menu, so it will search in a new tab this way so it doesn't close your other tabs.
 
 ## License
 
-It's GPL-3.0 so like do anything that it allows, else I will have to do legal shit. Please don't make me do legal things.
+It's GPL-3.0. Feel free to use it as you wish as long as GPL-3.0 allows it. Even if it does not require credit, it will really be appreciated to mention me and this page.
 
 ## Credits
 
