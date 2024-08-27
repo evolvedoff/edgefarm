@@ -27,7 +27,7 @@ def run():
     if debouncerun and repeats >= 0:
             debouncerun = not debouncerun
             search_edge(repeats, custom=0)
-            time.sleep(random.randint(90,110) / 100)
+            time.sleep(random.randint(90,110) / 10)
             repeats -= 1
             debouncerun = not debouncerun
     elif repeats < 0:
@@ -52,6 +52,7 @@ if __name__ == "__main__":
             else:
                 print("Script stopped")
                 search_edge(0, "Script stopped")
+                time.sleep(2)
 
             time.sleep(0.1)
             debounce = not debounce
