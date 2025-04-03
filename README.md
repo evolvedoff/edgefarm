@@ -14,7 +14,7 @@ It searches between an inteval of about 10 seconds.
 
 ### 1. Install python
 
-This can be done on the official website [python.org](https://www.python.org/downloads/). I would recommend you install the newest stable version.
+This can be done on the official website [python.org](https://www.python.org/downloads/) or via the [Microsoft Store](https://apps.microsoft.com/detail/9nrwmjp3717k?hl=en-us&gl=US). I would recommend you install the newest **stable** version.
 
 ### 2. Install the program
 
@@ -46,9 +46,11 @@ To stop the program hold F1. This should immediatelly open a new tab. Hold it un
 
 Also F1 opens the help menu, so it will search in a new tab this way so it doesn't close your other tabs.
 
+Note: Pausing the program with F1 is incosistent, I would simply suggest stopping it and re-running it partially later.
+
 ## License
 
-It's GPL-3.0. Feel free to use it as you wish as long as GPL-3.0 allows it. Even if it does not require credit, it will really be appreciated to mention me and this page.
+It's GPL-3.0. Feel free to use it as you wish as long as GPL-3.0 allows it. Even if it does not require credit, it will really be appreciated to mention me and/or this page.
 
 ## Credits
 
