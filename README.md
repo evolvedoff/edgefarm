@@ -1,63 +1,81 @@
-# edgefarm
+# EdgeFarm
 
-This script farms Microsoft Rewards Points by searching in your browser.
+This script automates Microsoft Rewards searches in your browser.
 
-> IT'S MADE FOR EDUCATIONAL PURPOSES ONLY, USE AT YOUR OWN DISCRETION
+> **FOR EDUCATIONAL PURPOSES ONLY. USE AT YOUR OWN RISK.**
 
-## How it works
+## How It Works
 
-It presses a hotkey (Ctrl + E for Edge) and that hotkey opens a search pop-up. There is generates 4 random letters and types them in witha number behind the 4 letters. The number indicates how much iterations (repeats) are left. Example: hsow18 - The four letters are "h", "s", "o" and "w" and there are 18 iterations left.
+The script triggers a hotkey (Ctrl + E for Edge), which opens a search pop-up. It then generates four random letters followed by a number indicating the remaining iterations (searches). Example: `hsow18` — "h", "s", "o", and "w" are the random letters, and 18 searches are left.
 
-It searches between an inteval of about 10 seconds.
+Searches are performed approximately every 10 seconds.
 
-## How to use
+## How to Use
 
-### 1. Install python
+### 1. Install Python
 
-This can be done on the official website [python.org](https://www.python.org/downloads/) or via the [Microsoft Store](https://apps.microsoft.com/detail/9nrwmjp3717k?hl=en-us&gl=US). I would recommend you install the newest **stable** version.
+Download and install the latest **stable** version of Python from:
+- [Official Website](https://www.python.org/downloads/)
+- [Microsoft Store](https://apps.microsoft.com/detail/9nrwmjp3717k?hl=en-us&gl=US)
 
-### 2. Install the program
+### 2. Install the Program
 
-You can run this command in the repository of your choice. This will clone the git locally.
-
-```
+Clone the repository using:
+```sh
 git clone https://github.com/evolvedoff/edgefarm.git
 ```
+To open CMD in a specific folder, navigate to it in File Explorer and type **"cmd"** in the path bar.
 
-Note: To open the CMD in the respective folder, reach it in the File Explorer and type "cmd" in the PATH field.
+Alternatively, download the latest release from [here](https://github.com/evolvedoff/edgefarm/releases) and extract it to a folder of your choice.
 
-Alternatively you can just download the latest release from [here](https://github.com/evolvedoff/edgefarm/releases) and put in in a folder of your choice.
+### 3. Install Required Libraries
 
-### 3. Run the program
-
-All you need to do now is type the following in the CMD. Make sure you are in the correct folder (should be the one named "edgefarm").
-
+Open CMD in the project folder and run:
+```sh
+pip install -r requirements.txt
 ```
+If you encounter issues with `pip`, update it first:
+```sh
+python -m ensurepip --default-pip
+python -m pip install --upgrade pip
+```
+Or install the required libraries manually:
+```sh
+pip install pyautogui keyboard wonderwords
+```
+
+### 4. Run the Program
+
+Navigate to the project folder in CMD and run:
+```sh
 python main.py
 ```
+**Ensure you are in the correct folder** before running `main.py` to avoid executing unintended files.
 
-Note: This will execute "main.py" using python. Make sure to be in the correct folder as else you can execute a malicious program.
+### 5. Using the Program
 
-### 4. Using the program
+Once the CMD window opens, switch to your browser and press **F1**. The script will begin searching automatically.
 
-After a CMD prompt is opened by the program you are to go to the browser window and press "F1" on your keyboard. It will begin searching promptly.
+#### Stopping the Program
+- Hold **F1** until a new tab opens—this indicates the program has stopped.
+- If this does not work, wait for it to finish (it runs for 5 minutes) or close the CMD window manually.
 
-To stop the program hold F1. This should immediatelly open a new tab. Hold it until another tab is opened. When that happens, you are done. The program has stopped. If this method does not work, you can always wait for it (it lasts a total of 300 seconds or 5 minutes) or close the CMD windows, opened by the program.
-
-Also F1 opens the help menu, so it will search in a new tab this way so it doesn't close your other tabs.
-
-Note: Pausing the program with F1 is incosistent, I would simply suggest stopping it and re-running it partially later.
+> **Note:** Pausing the script with F1 can be inconsistent. If needed, restart it later.
 
 ## License
 
-It's GPL-3.0. Feel free to use it as you wish as long as GPL-3.0 allows it. Even if it does not require credit, it will really be appreciated to mention me and/or this page.
+This project is licensed under **GPL-3.0**. You are free to use, modify, and distribute it as long as you comply with GPL-3.0. While credit is not required, it is appreciated.
 
 ## Credits
 
-What did you expect here? Someone else? Nah, it is just me! By the way go sub to me on youtube -> [YouTube Link (CLICK IT)](https://www.youtube.com/@evolveroff)
+Expecting someone else? Nope, just me! 😉
 
-PS: The link does open in your current tab so just middle mouse button click it so it opens in a new tab.
+By the way, check out my YouTube channel: [@evolveroff](https://www.youtube.com/@evolveroff)!
 
-## Legal
+> **Note:** Middle-click the link to open it in a new tab.
 
-This software is provided for educational purposes only. The author is not liable for any misuse. Users are solely responsible for ensuring their use complies with applicable laws and platform terms, including Microsoft Rewards. The author disclaims any liability for violations or consequences resulting from the use of this code. Use at your own discretion.
+## Legal Disclaimer
+
+This software is provided **for educational purposes only**. The author is not responsible for any misuse. Users are solely responsible for ensuring compliance with applicable laws and platform terms, including Microsoft Rewards policies.
+
+By using this script, you accept all risks. **Use at your own discretion.**
